@@ -274,7 +274,7 @@ CompositeSystem::CompositeSystem(Qbit &q1, Qbit &q2) : Qdit(4), q1(&q1), q2(&q2)
     setAmplitudes(ComplexMatrix::tensorProduct(q1.ket(),q2.ket()));
 }
 
-void CompositeSystem::colapse(){ //What a mess...
+void CompositeSystem::colapse(){
     std::complex<double> a1, a2;
     ComplexMatrix amp1(2,1);
     ComplexMatrix amp2(2,1);
