@@ -3,6 +3,8 @@ A simple C++ quantum simulation of the CHSH game and its classical and quantum s
 
 This project demonstrates how quantum strategies outperform classical ones in a well-known theoretical game from quantum information theory.
 
+![](./resources/program_execution.gif)
+
 ## The CSHS Game
 Theoretical framework used to experimentally test concepts from quantum information.
 
@@ -10,6 +12,8 @@ The game involves three entities:
 - Alice (player)
 - Bob (player)
 - Referee
+
+![](./resources/cshs_game.png)
 
 Rules:
 1. The referee randomly chooses two bits:
